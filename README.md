@@ -1,18 +1,34 @@
 # Awesome scRNA Cell Type Annotation
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/cafferychen777/awesome-scrna-annotation?style=social)](https://github.com/cafferychen777/awesome-scrna-annotation/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/cafferychen777/awesome-scrna-annotation?style=social)](https://github.com/cafferychen777/awesome-scrna-annotation/network/members)
+[![GitHub contributors](https://img.shields.io/github/contributors/cafferychen777/awesome-scrna-annotation)](https://github.com/cafferychen777/awesome-scrna-annotation/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/cafferychen777/awesome-scrna-annotation)](https://github.com/cafferychen777/awesome-scrna-annotation/commits/main)
 
-A curated list of awesome single-cell RNA sequencing (scRNA-seq) cell type annotation tools and methods. This repository only includes high-quality tools that either:
+> A comprehensive, curated collection of state-of-the-art single-cell RNA sequencing (scRNA-seq) cell type annotation tools, methods, databases, and resources for bioinformatics researchers and computational biologists.
+
+Cell type annotation is a critical step in single-cell RNA sequencing analysis that involves assigning biological identities to clusters of cells based on their gene expression profiles. This repository serves as a central hub for high-quality tools and resources that can help researchers accurately identify cell types in their scRNA-seq datasets.
+
+This collection only includes high-quality tools that either:
 - Have more than 100 stars on GitHub, OR
 - Are published in prestigious journals (Cell, Nature, Science and their sister journals, or Genome Biology)
 
 ## Contents
 
 - [Cell Type Annotation Tools](#cell-type-annotation-tools)
+  - [Machine Learning Based](#machine-learning-based)
+  - [Reference Based](#reference-based)
+  - [Marker Gene Based](#marker-gene-based)
+  - [Large Language Model Based](#large-language-model-based)
 - [Benchmark Studies](#benchmark-studies)
 - [Databases](#databases)
+  - [Cell Marker Databases](#cell-marker-databases)
+  - [Reference Datasets](#reference-datasets)
 - [Tutorials and Workflows](#tutorials-and-workflows)
+- [Community Resources](#community-resources)
 - [Contributing](#contributing)
+- [Star History](#star-history)
 - [License](#license)
 
 ## Cell Type Annotation Tools
@@ -61,10 +77,30 @@ A curated list of awesome single-cell RNA sequencing (scRNA-seq) cell type annot
 | [Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/) | Comprehensive guide to scRNA-seq analysis | [Link](https://bioconductor.org/books/release/OSCA/) |
 | [Seurat - Guided Clustering Tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) | Tutorial for cell type identification with Seurat | [Link](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) |
 
+## Community Resources
+
+| Resource | Description | URL |
+|----------|-------------|-----|
+| [Single Cell Genomics Day](https://www.singlecellgenomicsday.com/) | Annual event dedicated to single-cell genomics | [Link](https://www.singlecellgenomicsday.com/) |
+| [Single Cell Omics](https://www.reddit.com/r/singlecellomics/) | Reddit community for single-cell omics discussions | [Link](https://www.reddit.com/r/singlecellomics/) |
+| [Bioconductor Single Cell](https://bioconductor.org/packages/release/BiocViews.html#___SingleCell) | Collection of Bioconductor packages for single-cell analysis | [Link](https://bioconductor.org/packages/release/BiocViews.html#___SingleCell) |
+
 ## Contributing
 
 We welcome contributions to this repository! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
 
+If you find this resource useful, please consider giving it a ⭐️ star to help others discover it!
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=cafferychen777/awesome-scrna-annotation&type=Date)](https://star-history.com/#cafferychen777/awesome-scrna-annotation&Date)
+
 ## License
 
 This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <i>Keywords: single-cell RNA sequencing, scRNA-seq, cell type annotation, bioinformatics, computational biology, marker genes, reference mapping, machine learning, large language models, cell atlas, cell ontology</i>
+</p>
